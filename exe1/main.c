@@ -28,13 +28,11 @@ int main() {
     if (g_cnt == 1) {
       printf("fall\n");
       g_cnt = -1;
-      sleep_ms(1); 
     } 
     else if (g_cnt == 0) {
       printf("rise\n");
       g_cnt = -1; 
-      sleep_ms(1); 
     }
-    sleep_ms(1); 
+    sleep_ms(10); 
   }
 }
